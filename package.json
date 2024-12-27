@@ -1,0 +1,22 @@
+{
+    "name": "faq-component",
+    "version": "1.0.0",
+    "description": "Modern FAQ component for WordPress",
+    "main": "dist/js/faq-script.min.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "dev": "webpack --mode development --watch",
+      "test": "jest",
+      "lint": "eslint src",
+      "format": "prettier --write src"
+    },
+    "keywords": [
+      "wordpress",
+      "faq",
+      "component",
+      "accessibility"
+    ],
+    "author": "Marga Bagus",
+    "license": "MIT"
+  }
+
