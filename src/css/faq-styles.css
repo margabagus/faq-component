@@ -2,7 +2,7 @@
 .faq-container {
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 20px;
     font-family: -apple-system, 'Inter', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 
@@ -15,7 +15,7 @@
     width: 100%;
     background: none;
     border: none;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@
 }
 
 .faq-answer {
-    padding: 0 20px 20px;
+    padding: 0 0 20px;
     display: none;
     color: #666;
     line-height: 1.6;
