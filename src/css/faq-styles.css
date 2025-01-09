@@ -1,16 +1,13 @@
-/* FAQ Styles */
 .faq-container {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    font-family: -apple-system, 'Inter', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, "Inter", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
 .faq-item {
     border-bottom: 1px solid #cecece;
     margin-bottom: 10px;
 }
-
 .faq-question {
     width: 100%;
     background: none;
@@ -25,11 +22,9 @@
     font-weight: 550;
     transition: background-color 0.3s ease;
 }
-
 .faq-question:hover {
     background-color: #f9f9f9;
 }
-
 .faq-icon {
     width: 24px;
     height: 24px;
@@ -37,23 +32,19 @@
     stroke-width: 1;
     transition: transform 0.3s ease;
 }
-
 .faq-question[aria-expanded="true"] .faq-icon {
     transform: rotate(180deg);
 }
-
 .faq-answer {
     padding: 0 0 20px;
     display: none;
     color: #666;
     line-height: 1.6;
 }
-
 .faq-answer.active {
     display: block;
     animation: fadeIn 0.5s ease;
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -64,33 +55,26 @@
         transform: translateY(0);
     }
 }
-
-/* Responsive Styles */
 @media (max-width: 768px) {
     .faq-container {
-        padding: 15px;
+        padding: 0; /* Remove container padding */
     }
-    
     .faq-question {
-        padding: 15px;
+        padding: 15px 0; /* Remove horizontal padding */
         font-size: 15px;
     }
-    
     .faq-answer {
-        padding: 0 15px 15px;
+        padding: 0 0 15px; /* Remove horizontal padding */
     }
 }
-
 @media (max-width: 480px) {
     .faq-question {
         font-size: 14px;
         line-height: 1.2em;
     }
-
     .faq-answer {
         line-height: 1.3em;
     }
-
     .faq-icon {
         width: 18px;
         height: 18px;
